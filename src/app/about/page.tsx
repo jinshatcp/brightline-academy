@@ -58,53 +58,58 @@ export default function AboutPage() {
                         </div>
                     </div>
                 </section>
-
-                            From different academic calendars to the need for competitive exam (JEE/NEET) preparation while living abroad.
-                        </p>
-                        <ul className="space-y-3">
-                            <li className="flex items-center gap-2">
-                                <CheckCircle className="h-5 w-5 text-blue-400" />
-                                <span>Timings aligned with Gulf Time Zone</span>
-                            </li>
-                            <li className="flex items-center gap-2">
-                                <CheckCircle className="h-5 w-5 text-blue-400" />
-                                <span>Focus on CBSE guidelines followed in Gulf schools</span>
-                            </li>
-                            <li className="flex items-center gap-2">
-                                <CheckCircle className="h-5 w-5 text-blue-400" />
-                                <span>Bridge courses for students moving back to India</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="bg-white/10 p-6 rounded-xl border border-white/20">
-                        <div className="flex items-center gap-4 mb-4">
-                            <Globe className="h-8 w-8 text-blue-400" />
-                            <h3 className="font-bold text-xl">Global Standards</h3>
+                {/* Gulf Vision Section */}
+                <section className="py-16 bg-slate-900 text-white">
+                    <div className="container px-4 md:px-6 mx-auto grid md:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <h2 className="text-3xl font-bold mb-6">Dedicated to Gulf Students</h2>
+                            <p className="text-slate-300 mb-6 leading-relaxed">
+                                From different academic calendars to the need for competitive exam (JEE/NEET) preparation while living abroad.
+                            </p>
+                            <ul className="space-y-3">
+                                <li className="flex items-center gap-2">
+                                    <CheckCircle className="h-5 w-5 text-blue-400" />
+                                    <span>Timings aligned with Gulf Time Zone</span>
+                                </li>
+                                <li className="flex items-center gap-2">
+                                    <CheckCircle className="h-5 w-5 text-blue-400" />
+                                    <span>Focus on CBSE guidelines followed in Gulf schools</span>
+                                </li>
+                                <li className="flex items-center gap-2">
+                                    <CheckCircle className="h-5 w-5 text-blue-400" />
+                                    <span>Bridge courses for students moving back to India</span>
+                                </li>
+                            </ul>
                         </div>
-                        <p className="text-sm text-slate-300">
-                            "Our daughter in Grade 10 at an Indian School in Dubai was struggling with Physics. The personalized attention from Brightline's tutors made all the difference. She scored 95% in her boards."
-                        </p>
-                        <div className="mt-4 pt-4 border-t border-white/10 flex items-center justify-between">
-                            <span className="text-xs font-bold text-white">The Verma Family, Dubai</span>
-                            <div className="flex gap-1">
-                                <Star className="h-3 w-3 text-yellow-400 fill-current" />
-                                <Star className="h-3 w-3 text-yellow-400 fill-current" />
-                                <Star className="h-3 w-3 text-yellow-400 fill-current" />
-                                <Star className="h-3 w-3 text-yellow-400 fill-current" />
-                                <Star className="h-3 w-3 text-yellow-400 fill-current" />
+                        <div className="bg-white/10 p-6 rounded-xl border border-white/20">
+                            <div className="flex items-center gap-4 mb-4">
+                                <Globe className="h-8 w-8 text-blue-400" />
+                                <h3 className="font-bold text-xl">Global Standards</h3>
+                            </div>
+                            <p className="text-sm text-slate-300">
+                                "Our daughter in Grade 10 at an Indian School in Dubai was struggling with Physics. The personalized attention from Brightline's tutors made all the difference. She scored 95% in her boards."
+                            </p>
+                            <div className="mt-4 pt-4 border-t border-white/10 flex items-center justify-between">
+                                <span className="text-xs font-bold text-white">The Verma Family, Dubai</span>
+                                <div className="flex gap-1">
+                                    <Star className="h-3 w-3 text-yellow-400 fill-current" />
+                                    <Star className="h-3 w-3 text-yellow-400 fill-current" />
+                                    <Star className="h-3 w-3 text-yellow-400 fill-current" />
+                                    <Star className="h-3 w-3 text-yellow-400 fill-current" />
+                                    <Star className="h-3 w-3 text-yellow-400 fill-current" />
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div >
-            </section >
+                    </div >
+                </section >
 
-        <section className="text-center py-8">
-            <h2 className="text-2xl font-bold mb-4">Join the Brightline Family</h2>
-            <Button asChild size="lg" className="bg-primary text-secondary">
-                <Link href="/book-demo">Book a Free Assessment</Link>
-            </Button>
-        </section>
-        </div >
+                <section className="text-center py-8">
+                    <h2 className="text-2xl font-bold mb-4">Join the Brightline Family</h2>
+                    <Button asChild size="lg" className="bg-primary text-secondary">
+                        <Link href="/book-demo">Book a Free Assessment</Link>
+                    </Button>
+                </section>
+            </div >
         </div >
     );
 }
