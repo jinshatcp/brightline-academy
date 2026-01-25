@@ -1,0 +1,30 @@
+# Binaries
+liveclass
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build output
+cmd/liveclass/dist/
+
+# Dependencies
+web/node_modules/
+
+# Build artifacts (Vite builds directly to cmd/liveclass/dist/)
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+

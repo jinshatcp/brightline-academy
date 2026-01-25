@@ -1,0 +1,81 @@
+# ===========================================
+# Docker Ignore File for LiveClass
+# ===========================================
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+.cursor
+
+# Documentation
+*.md
+!README.md
+LICENSE
+
+# Docker files (prevent recursion)
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build artifacts
+liveclass
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test files
+*_test.go
+*.test
+coverage.out
+coverage.html
+
+# Node modules (will be installed fresh in container)
+web/node_modules/
+
+# Local storage (use volumes instead)
+storage/recordings/*
+storage/notes/*
+!storage/recordings/.gitkeep
+!storage/notes/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Debug files
+debug
+*.pprof
+
+# Frontend build (rebuilt in container)
+# web/dist/
+
+# Go vendor (use go mod download)
+vendor/
+
+# Misc
+*.bak
+*.backup
+run.sh
+
