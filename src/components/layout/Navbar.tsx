@@ -41,7 +41,7 @@ export function Navbar() {
 
                 <div className="hidden md:flex items-center gap-4">
                     <Button asChild variant="ghost" className="text-primary hover:text-primary/80 font-medium">
-                        <Link href="#">Login</Link>
+                        <Link href="https://brightline-academy-7xz1.vercel.app/">Login</Link>
                     </Button>
                     <Button asChild variant="default" className="bg-primary text-secondary hover:bg-primary/90 font-semibold shadow-md">
                         <Link href="/book-demo">Book Free Demo</Link>
@@ -74,7 +74,7 @@ export function Navbar() {
                                         </Link>
                                     ))}
                                     <Button asChild variant="outline" className="mt-4 w-full border-primary text-primary hover:bg-primary/10">
-                                        <Link href="#" onClick={() => setIsOpen(false)}>Login</Link>
+                                        <Link href="https://brightline-academy-7xz1.vercel.app/" onClick={() => setIsOpen(false)}>Login</Link>
                                     </Button>
                                     <Button asChild className="w-full bg-secondary text-primary hover:bg-secondary/80">
                                         <Link href="/book-demo" onClick={() => setIsOpen(false)}>Book Free Demo</Link>
