@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/mjamal5/learn/internal/auth"
-	"github.com/mjamal5/learn/internal/models"
-	"github.com/mjamal5/learn/internal/repository"
+	"github.com/jinshatcp/brightline-academy/learn/internal/auth"
+	"github.com/jinshatcp/brightline-academy/learn/internal/models"
+	"github.com/jinshatcp/brightline-academy/learn/internal/repository"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

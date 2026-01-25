@@ -8,8 +8,8 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/gorilla/websocket"
-	"github.com/mjamal5/learn/internal/room"
-	"github.com/mjamal5/learn/internal/rtc"
+	"github.com/jinshatcp/brightline-academy/learn/internal/room"
+	"github.com/jinshatcp/brightline-academy/learn/internal/rtc"
 	"github.com/pion/webrtc/v3"
 )
 

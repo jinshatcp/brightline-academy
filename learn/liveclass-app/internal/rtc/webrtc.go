@@ -9,7 +9,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/mjamal5/learn/internal/room"
+	"github.com/jinshatcp/brightline-academy/learn/internal/room"
 	"github.com/pion/webrtc/v3"
 )
 

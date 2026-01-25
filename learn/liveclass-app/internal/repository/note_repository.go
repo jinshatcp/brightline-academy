@@ -5,8 +5,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/mjamal5/learn/internal/cache"
-	"github.com/mjamal5/learn/internal/models"
+	"github.com/jinshatcp/brightline-academy/learn/internal/cache"
+	"github.com/jinshatcp/brightline-academy/learn/internal/models"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"

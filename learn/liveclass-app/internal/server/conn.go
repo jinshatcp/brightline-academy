@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/gorilla/websocket"
-	"github.com/mjamal5/learn/internal/room"
+	"github.com/jinshatcp/brightline-academy/learn/internal/room"
 )
 
 // Ensure WSConn implements room.Connection interface.

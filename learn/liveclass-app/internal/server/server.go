@@ -10,14 +10,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mjamal5/learn/internal/auth"
-	"github.com/mjamal5/learn/internal/config"
-	"github.com/mjamal5/learn/internal/database"
-	"github.com/mjamal5/learn/internal/middleware"
-	"github.com/mjamal5/learn/internal/pubsub"
-	"github.com/mjamal5/learn/internal/repository"
-	"github.com/mjamal5/learn/internal/room"
-	"github.com/mjamal5/learn/internal/rtc"
+	"github.com/jinshatcp/brightline-academy/learn/internal/auth"
+	"github.com/jinshatcp/brightline-academy/learn/internal/config"
+	"github.com/jinshatcp/brightline-academy/learn/internal/database"
+	"github.com/jinshatcp/brightline-academy/learn/internal/middleware"
+	"github.com/jinshatcp/brightline-academy/learn/internal/pubsub"
+	"github.com/jinshatcp/brightline-academy/learn/internal/repository"
+	"github.com/jinshatcp/brightline-academy/learn/internal/room"
+	"github.com/jinshatcp/brightline-academy/learn/internal/rtc"
 )
 
 // Server represents the LiveClass HTTP server.

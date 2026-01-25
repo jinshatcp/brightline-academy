@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/mjamal5/learn/internal/models"
-	"github.com/mjamal5/learn/internal/repository"
+	"github.com/jinshatcp/brightline-academy/learn/internal/models"
+	"github.com/jinshatcp/brightline-academy/learn/internal/repository"
 	"golang.org/x/crypto/bcrypt"
 )
 

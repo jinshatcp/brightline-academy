@@ -1,4 +1,4 @@
-module github.com/mjamal5/learn
+module github.com/jinshatcp/brightline-academy/learn
 
 go 1.24.0
 
